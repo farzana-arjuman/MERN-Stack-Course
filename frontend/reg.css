@@ -1,0 +1,124 @@
+.body{
+  font-family:rgb(188, 194, 202);
+}
+
+.container {
+
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:10 0 10px 1px s rgba(0,0,0,0.2);
+    gap: 20px;
+   
+    margin-top: 0.25%;
+    padding-top:30px;
+    padding-bottom: 30px;
+    width: 20%;
+    height: 40%;
+   
+  }
+
+  .heading {
+    font-size: 24px;
+    line-height: 28px;
+    width: auto;
+    font-weight: normal;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .main {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 40px;
+    background-color: #88895495;
+  }
+/*logo of fb did,nt work clearly other things are done */
+ .logo{
+    align-items: center;
+    display: flex;
+    margin-right: 50%;
+  height: 15%;
+  width: 5%;
+  } 
+  
+
+  
+.login{
+  
+  font-size: 1.9rcm;
+  margin: 20px,0px,10px,0px;
+}
+
+.input{
+  width: 332px;
+  height: 50px;
+  border: 2px solid rgba(0,0,0,0.1);
+  border-radius: 6px;
+  font-size: 15px;
+  padding-left: 0.8rem 1rem;
+  font-weight: 500px;
+  color: rgba(0,0,0,0.5);
+  outline-style: none;
+}
+
+button{
+  width: 332px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 0 16px;
+  font-weight: 500px;
+  background-color: #1877f2;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 48px;
+
+}
+  
+a{
+  text-decoration: none;
+  font-size: 14px;
+  margin: 10px;
+  color: #1877f2;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.new-account{
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 332px;
+  background-color: #42b72a;
+  
+
+}
+  
+ .login-btn:hover{
+  background-color: #1366d1;
+
+ }
+
+.new-account:hover{
+  background-color: #84b39d;
+}
+
+
+
+hr{
+  width: 50%;
+  color: black;
+}
